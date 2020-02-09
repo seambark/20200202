@@ -1,6 +1,7 @@
 //import React from 'react'
 import React, { useState } from 'react'
 import Navber from './navbar'
+import GlobalStlyes from './global-styles'
 
 //class, Functional 2가지
 
@@ -24,9 +25,10 @@ import Navber from './navbar'
   const
 */
 function App() {
-  const [title, setTitle] = useState('app페이지')
+  const [title, setTitle] = useState('App페이지 Navber')
   return (
     <div>
+      <GlobalStlyes />
       <Navber title={title} />
     </div>
   )
